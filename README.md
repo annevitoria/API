@@ -10,19 +10,11 @@ Depois de clonar o projeto, eu usei Docker para subir a API. Certifiquei-me de q
 
 Plain Text
 
-
-
-
-
-
-
-
 docker-compose up --build
 
 
 Esse comando construiu a imagem do container e iniciou o servidor. Assim que o processo terminou, a API ficou acessível em http://localhost:8000.
-
-
+*
 
 3. Fazendo testes com Postman
 Agora vou explicar como fiz os testes utilizando o Postman.
@@ -48,126 +40,25 @@ Com isso, confirmei que a API estava funcionando corretamente.
 
 4. Referência de categorias
 Ao criar produtos, usei os seguintes códigos de categorias como referência:
-IDNome da Categoria1
 
+ID - Nome da Categoria
 
+1. Acessórios de Informática
 
+2. Memória RAM
 
+3. Disco Rígido/SSD
 
-Acessórios de Informática
+4. Placa de Vídeo
 
+5. Gabinete
 
+6. Placa Mãe
 
+7. Fonte
 
+8. Processadores
 
-2
+9. Eletrodomésticos
 
-
-
-
-
-Memória RAM
-
-
-
-
-
-3
-
-
-
-
-
-Disco Rígido/SSD
-
-
-
-
-
-4
-
-
-
-
-
-Placa de Vídeo
-
-
-
-
-
-5
-
-
-
-
-
-Gabinete
-
-
-
-
-
-6
-
-
-
-
-
-Placa Mãe
-
-
-
-
-
-7
-
-
-
-
-
-Fonte
-
-
-
-
-
-8
-
-
-
-
-
-Processadores
-
-
-
-
-
-9
-
-
-
-
-
-Eletrodomésticos
-
-
-
-
-
-10
-
-
-
-
-
-Cama e Mesa
-
-
-
-
-
-
-
-
+10. Cama e Mesa
