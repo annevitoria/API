@@ -1,16 +1,13 @@
 1. Clonando o repositório
+
 A primeira coisa que eu fiz foi clonar o repositório do projeto LojaAPI.
 Com isso, o código fonte do projeto ficou disponível na minha máquina local.
-
 
 
 2. Subindo o container da API
 Depois de clonar o projeto, eu usei Docker para subir a API. Certifiquei-me de que o Docker e o Docker Compose estavam instalados e, no diretório do projeto, rodei o comando abaixo:
 
-
-Plain Text
-
-docker-compose up --build
+*docker-compose up --build*
 
 
 Esse comando construiu a imagem do container e iniciou o servidor. Assim que o processo terminou, a API ficou acessível em http://localhost:8000.
